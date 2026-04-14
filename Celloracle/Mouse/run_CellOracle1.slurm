@@ -3,8 +3,8 @@
 #SBATCH --output=/gpfs/Labs/Uzun/RESULTS/PROJECTS/2024.GRN_BENCHMARKING.KARAMVEER/Generate_Shuffling/CellOracle/logs/CellOracle_%A_%a.%N.txt
 #SBATCH --error=/gpfs/Labs/Uzun/RESULTS/PROJECTS/2024.GRN_BENCHMARKING.KARAMVEER/Generate_Shuffling/CellOracle/logs/CellOracle_%A_%a.%N.err
 #SBATCH -p memory
-#SBATCH -A lab_uzun
-#SBATCH --mail-user=kkaramveer@pennstatehealth.psu.edu
+#SBATCH -A lab_x
+#SBATCH --mail-user=kk@penn
 #SBATCH --mail-type=ALL
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=16
