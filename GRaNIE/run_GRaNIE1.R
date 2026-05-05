@@ -69,7 +69,7 @@ if (genome == "hg38") {
   ensembl_mart <- readRDS(mart_rds)
   message("Loaded Human biomaRt from: ", mart_rds)
 
-  tfbs_folder <- "/gpfs/Home/kmk7420/Multi_omics_GRN/GRaNIE/H12INVIVO"
+  tfbs_folder <- "/gpfs/Labs/Uzun/SCRIPTS/PROJECTS/2024.GRN_BENCHMARKING.KARAMVEER/Tools_pipelines/GRaNIE/H12INVIVO"
 
 } else {  # mm10
 
@@ -90,7 +90,7 @@ if (genome == "hg38") {
   ensembl_mart <- readRDS(mart_rds)
   message("Loaded Mouse biomaRt from: ", mart_rds)
 
-  tfbs_folder <- "/gpfs/Home/kmk7420/Multi_omics_GRN/GRaNIE/mESC/PWMScan_HOCOMOCOv12/H12INVIVO/pwmscan_filt"
+  tfbs_folder <- "/gpfs/Labs/Uzun/SCRIPTS/PROJECTS/2024.GRN_BENCHMARKING.KARAMVEER/Tools_pipelines/GRaNIE/PWMScan_HOCOMOCOv12/H12INVIVO/pwmscan_filt"
 }
 
 ## ── Load raw counts ───────────────────────────────────────────
